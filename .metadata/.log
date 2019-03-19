@@ -1041,3 +1041,19 @@ java.net.SocketTimeoutException: Accept timed out
 	at java.net.ServerSocket.accept(Unknown Source)
 	at org.eclipse.php.phpunit.model.connection.PHPUnitConnectionListener.run(PHPUnitConnectionListener.java:87)
 	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.php.phpunit 4 4 2019-03-19 17:57:50.074
+!MESSAGE Error
+!STACK 0
+java.net.SocketTimeoutException: Accept timed out
+	at java.net.DualStackPlainSocketImpl.waitForNewConnection(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at org.eclipse.php.phpunit.model.connection.PHPUnitConnectionListener.run(PHPUnitConnectionListener.java:87)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 4 2019-03-19 17:58:03.760
+!MESSAGE Conflicting handlers for org.eclipse.dltk.ui.edit.text.script.open.editor: {ActionHandler(org.eclipse.dltk.ui.actions.OpenAction@32c7ff93)} vs {ActionHandler(org.eclipse.dltk.ui.actions.OpenAction@32c7ff93)}
