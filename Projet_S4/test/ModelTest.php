@@ -1,5 +1,4 @@
 <?php
-use PHPUnit\Framework\TestCase;
 require_once './model/Model.php';
 /**
  * Model test case.
@@ -36,7 +35,7 @@ class ModelTest extends TestCase
         $this->assertEquals($pdo,Model::getPDO());
     }
 
-    /* On ne peut pas tester les fonctions du modèle générique
+    /* On ne peut pas tester les fonctions du modï¿½le gï¿½nï¿½rique
     
      * Tests Model::selectAll()
      
