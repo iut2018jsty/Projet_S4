@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\wamp64\bin\php" key="org.eclipse.dltk.ui.lastextsource"/>
+	<item value="C:\wamp64\bin\php\php7.2.10" key="org.eclipse.dltk.ui.lastextzip"/>
+	<item value="C:\wamp64\bin\php\php7.2.10\pharcommand.phar" key="org.eclipse.dltk.ui.lastuserlibrary"/>
+	<item value="640,680" key="UserLibraryLoadSaveDialog.size"/>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="380" key="DIALOG_X_ORIGIN"/>
+			<item value="-37" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="2" key="pageIndex"/>
+	</section>
+	<section name="BuildpathContainerSelectionPage">
+		<item value="0" key="index"/>
+	</section>
+</section>

@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime executable-install-name\="PHP 7.2.10 (CLI)" id\="PHP" location\="C\:/wamp64/bin/php/php7.2.10" name\="PHP" runtime-type-id\="org.eclipse.php.server.runtime" timestamp\="0"/>\r\n</runtimes>\r\n

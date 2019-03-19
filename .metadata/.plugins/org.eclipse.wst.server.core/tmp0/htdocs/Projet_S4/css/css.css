@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.08, 1.08, 1.08);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color :#ecf2f9;
+	display: flex;
+	min-height: 100vh; /*vh = relative to 1% of the height of the viewport**/
+	flex-direction: column;
+}
+
+#content {
+	flex : 1;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+h3 {
+	margin-left : 20px;
+}
+
+#content a:not(.no) {
+	color : #242222;
+	text-decoration: underline;
+	text-decoration-color: #55D;
+	background-color: none;
+	border-radius: 5px;
+}
+
+#content a:hover:not(.no) {
+	text-decoration: none;
+	background-color: #74bbe4;
+	border-radius: 5px;
+}
+
+/************************menu************************/
+
+.menu, .menu_deconnecte {
+	background-color: #2c3e50;
+	height: 70px;
+	width : 100%;
+	font-size: 18px;
+	position : relative;
+	top : -20px;
+}
+
+.menu ul, .menu_deconnecte ul {
+	display : flex;
+	flex-direction: row;
+	list-style-type: none;
+	text-align: center;	
+	padding-top: 25px;
+}
+
+.menu ul li, .menu_deconnecte ul li{
+	flex : auto;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.menu ul a, .menu_deconnecte ul a {
+	color : white;
+	text-decoration: none;
+}
+
+/************************ligne animation menu************************/
+.menu ul div, .menu_deconnecte ul div {
+	background-color: #ecf0f1;
+	width : 0;
+	height: 2px;
+	position : relative;
+	top : 5px;
+	transition: .2s ease-in-out;
+	margin: 0 auto;
+}
+
+.menu ul li:hover div, .menu_deconnecte ul li:hover div {
+	width : 65%;
+	transition: .2s ease-in-out;
+}
+
+/************************fin ligne animation menu************************/
+
+#extand {
+	display : none;
+	position : absolute;
+	top : 20px;
+	left : 10px;
+	color : white;
+	width : 110px;
+
+}
+
+#help {
+	display : none;
+}
+
+/************************responsive************************/
+
+@media(max-width: 850px)
+{
+	.menu ul li:hover div, .menu_deconnecte ul li:hover div {
+		width : 35%;
+	}
+
+	.menu {
+		position: relative;
+		top : -20px;
+		height: 70px;
+		transition: .2s ease;
+	}
+
+	.menu ul {
+		visibility: hidden;
+		opacity: 0;
+		display : block;
+		line-height: 35px;
+		position: relative;
+		top : 20px;
+	}
+
+	#extand {
+		display : block;
+		cursor : pointer;
+		z-index: 1;
+	}
+
+	#extand:hover {
+		opacity: 0.8;
+	}
+
+	#content {
+		margin-right: 10px;
+		margin-left : 10px;
+		font-size : 20px;
+	}
+
+	#tablewitharrows {
+		overflow-x: auto;
+		font-size: 15px;
+	}
+
+	#tablewitharrows td div {
+		width : 100px;
+	}
+
+	#help {
+		display : inline-block;
+		color : #bfbfbf;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 18px;
+	}
+
+	#help div {
+		transform: rotate(180deg);
+		width : 10px;
+		display: inline-block;
+	}
+
+	select {
+		height : 35px;
+	}
+}
+
+/************************fin responsive************************/
+
+/************************fin menu************************/
+
+footer {
+	height : 70px;
+	width : 100%;
+	background-color: #2c3e50;
+	text-align : right;
+	color : white;
+}
+
+footer > p {
+	margin : 4px;
+	padding-top : 25px;
+}
+
+#tablewitharrows td{
+	text-align : center;
+	min-width : 120px;
+	padding-bottom: 5px;
+	border : 1px;
+	border-width: 1px;
+	border-style: solid;
+	border-color : black;
+	padding : 0px;
+	margin : 0px;
+	height : 40px;
+}
+
+#tablewitharrows tr {
+	min-height: 40px;
+}
+
+
+.projet :first-child, .projet > td:last-child{
+	font-size : 110%;
+	font-weight : bold;
+}
+
+
+.tache :first-child{
+	font-size: 80%;
+}
+
+#tablewitharrows{
+	display : flex;
+	flex-direction: row;
+	overflow: auto;
+}
+
+#tablewitharrows > div {
+	flex : auto;
+}
+
+img {
+	width : 30px;
+	height : 30px;
+}
+
+table img{
+	width : 25px;
+	height : 25px;
+}
+
+.smallimg{
+	width : 20px;
+	height : 20px;
+	padding-bottom: 5px;
+}
+
+#arrow_right{
+	margin : auto;
+	margin-left : 10px;
+	text-align: left;
+}
+#arrow_left{
+	margin : auto;
+	margin-right : 10px;
+	text-align: right;
+}
+#tablewitharrows table {
+	border-spacing: 0px;
+}
+
+#pencil{
+	padding-top: 2px;
+}
+
+#listeRole{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+textarea{
+	width: 60%;
+	min-height: 200px;
+	min-width: 400px;
+}
+
+.commentaireaff{
+	padding : 5px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border : 1px solid black;
+	background-color : #b3ccff;
+	display:flex;
+	flex-direction: column;
+	margin : 5px;
+	margin-top : 40px;
+	margin-bottom: -30px;
+	padding : 5px;
+
+}
+
+fieldset{
+	padding: 20px;
+	border-color: #74bbe4;
+}
+
+input{
+	border-radius: 4px;
+	padding: 4px;
+	margin-left: 20px;
+	border : solid #0000002b 1px;
+}
+
+legend{
+	background-color: #74bbe4;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+td div {
+	width : 200px;
+	margin : auto;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+/************************pop up confirmation************************/
+
+.popup {
+	display: none; 
+	position: fixed; 
+	top : 0;
+	left : 0;
+	height : 100%;
+	width : 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+	background-color: #fefefe;
+	position: relative;
+	top : 40%;
+	left : 32%; /*50%center - (36%width/2)*/
+	padding: 30px;
+	width: 36%;
+	height : 12%;
+	text-align: center;
+	overflow: auto;
+	border-radius: 5px;
+}
+
+.close {
+	color: black;
+	float: right;
+	position: relative;
+	bottom : 20px;
+	left : 5px;
+	font-size: 35px;
+	font-weight: bold;
+	transition: .2s ease;
+}
+
+.close:hover {
+	color: lightgrey;
+	transition: .2s ease;
+	cursor: pointer;
+}
+
+.popup-content button {
+	margin-left : 5px;
+	margin-right : 5px;
+}
+
+.popup-content b {
+	color : #e74c3c;
+}
+
+button#del {
+	border : none;
+	cursor : pointer;
+	background: none;
+}
+
+/************************fin pop up confirmation************************/
+
+img {
+	vertical-align: -8px;
+}
+
+a img:hover, button img:hover {
+	animation-name: pulse;
+	animation-duration: .4s;
+}
+
+table img {
+	vertical-align: 0px;
+}
+
+tr#valideounon td{	
+	border : none;
+}
+
+.listeparnom li{
+	line-height: 35px;
+}
+
+/************************bouton submit************************/
+
+input[type='submit'] {
+	background: none;
+	border : solid #2c3e50 1px;
+	font-size: 16px;
+	cursor : pointer;
+	padding : 7px 12px;
+	transition: .2s ease;
+}
+
+input[type='submit']:hover {
+	background-color: #2c3e50;
+	color : white;
+	transition: .2s ease;
+}
+/************************fin bouton submit************************/
+
+.messageerreur{
+	margin-left : 20%;
+	margin-right : 20%;
+	margin-bottom: 10px;
+	padding : 3px;
+	height: auto;
+	color : #F33;
+	text-align: center;
+	border-size : 3px;
+	border-color: : #F33;
+	border-style: solid;
+}

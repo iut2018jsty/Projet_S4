@@ -1,0 +1,1 @@
+<p> Votre email a été validée </p>

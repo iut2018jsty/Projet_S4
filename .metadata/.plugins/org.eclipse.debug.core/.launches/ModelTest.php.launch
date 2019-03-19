@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.php.phpunit.PHPUnitLaunchConfigurationType">
+<stringAttribute key="ATTR_FILE" value="C:\wamp64\bin\php\php7.2.10\phpunit.phar"/>
+<stringAttribute key="ATTR_FILE_FULL_PATH" value="C:\wamp64\bin\php\php7.2.10\phpunit.phar"/>
+<stringAttribute key="ATTR_INI_LOCATION" value="C:\wamp64\bin\php\php7.2.10\php.ini"/>
+<stringAttribute key="ATTR_LOCATION" value="C:\wamp64\bin\php\php7.2.10\php.exe"/>
+<stringAttribute key="ZEND_PHPUNIT_TESTS_CONTAINER_TYPE" value="SCRIPT_FOLDER"/>
+<booleanAttribute key="firstLineBreakpoint" value="false"/>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="PHPUNIT_PORT" value="7478"/>
+</mapAttribute>
+<booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+<stringAttribute key="org.eclipse.php.debug.core.PHP_Project" value="Projet_S4"/>
+<booleanAttribute key="org.eclipse.php.debug.core.RunWithDebugInfo" value="false"/>
+<stringAttribute key="org.eclipse.php.debug.coreconfiguration_delegate_class" value="org.eclipse.php.internal.debug.core.debugger.NoneDebuggerConfiguration$ScriptLaunchDelegate"/>
+<stringAttribute key="org.eclipse.php.debug.corephp_debugger_id" value="org.eclipse.php.debug.core.noneDebugger"/>
+<booleanAttribute key="org.eclipse.php.phpunit.code_coverage" value="false"/>
+<stringAttribute key="org.eclipse.php.phpunit.container" value="test"/>
+<stringAttribute key="org.eclipse.php.phpunit.elementPath" value="\Projet_S4\test"/>
+<booleanAttribute key="org.eclipse.php.phpunit.is_suite" value="true"/>
+<booleanAttribute key="org.eclipse.php.phpunit.logXml" value="false"/>
+<stringAttribute key="org.eclipse.php.phpunit.phpunitPath" value=""/>
+<stringAttribute key="org.eclipse.php.phpunit.project" value="Projet_S4"/>
+<stringAttribute key="org.eclipse.php.phpunit.runType" value="PHAR_EXECUTION_TYPE"/>
+</launchConfiguration>

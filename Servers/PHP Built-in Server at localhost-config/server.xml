@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server>
+	<Port name="HTTP/1.1" protocol="HTTP">8429</Port>
+<PathMapping local="/Projet_S4" module="Projet_S4" remote="C:\wamp64\www\Projets PHP\Projet_S4\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\htdocs\Projet_S4"/></Server>
