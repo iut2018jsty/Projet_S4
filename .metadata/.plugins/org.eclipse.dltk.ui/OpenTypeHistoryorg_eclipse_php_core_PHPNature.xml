@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=Projet_S4/&lt;model{ModelUtilisateur.php[ModelUtilisateur" modifiers="8192" timestamp="1548663000000"/>
-<typeInfo handle="=Projet_S4/&lt;model{ModelTache.php[ModelTache" modifiers="8192" timestamp="1548662998000"/>
-<typeInfo handle="=Projet_S4/&lt;model{ModelDate.php[ModelDate" modifiers="8192" timestamp="1548662998000"/>
-<typeInfo handle="=Projet_S4/&lt;model{Model.php[Model" modifiers="8192" timestamp="1548662998000"/>
-<typeInfo handle="=Projet_S4/&lt;controller{ControllerDate.php[ControllerDate" modifiers="8192" timestamp="1548662988000"/>
-<typeInfo handle="=Projet_S4/&lt;model{ModelProjet.php[ModelProjet" modifiers="8192" timestamp="1548663000000"/>
-<typeInfo handle="=Projet_S4/&lt;model{ModelTravail.php[ModelTravail" modifiers="8192" timestamp="1548663000000"/>
 <typeInfo handle="=Projet_S4/&lt;model{ModelVoit.php[ModelVoit" modifiers="8192" timestamp="1548663000000"/>
+<typeInfo handle="=Projet_S4/&lt;model{ModelTravail.php[ModelTravail" modifiers="8192" timestamp="1548663000000"/>
+<typeInfo handle="=Projet_S4/&lt;model{ModelProjet.php[ModelProjet" modifiers="8192" timestamp="1548663000000"/>
+<typeInfo handle="=Projet_S4/&lt;model{Model.php[Model" modifiers="8192" timestamp="1548662998000"/>
+<typeInfo handle="=Projet_S4/&lt;model{ModelDate.php[ModelDate" modifiers="8192" timestamp="1548662998000"/>
+<typeInfo handle="=Projet_S4/&lt;model{ModelTache.php[ModelTache" modifiers="8192" timestamp="1548662998000"/>
+<typeInfo handle="=Projet_S4/&lt;model{ModelUtilisateur.php[ModelUtilisateur" modifiers="8192" timestamp="1548663000000"/>
+<typeInfo handle="=Projet_S4/&lt;controller{ControllerDate.php[ControllerDate" modifiers="8192" timestamp="1548662988000"/>
 </typeInfoHistroy>
