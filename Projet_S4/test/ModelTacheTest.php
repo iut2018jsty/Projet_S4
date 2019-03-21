@@ -1,7 +1,6 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-
 require_once 'model/ModelTache.php';
 
 /**

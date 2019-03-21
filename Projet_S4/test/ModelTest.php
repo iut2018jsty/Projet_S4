@@ -1,6 +1,7 @@
 <?php
 use PHPUnit\Framework\TestCase;
-require_once './model/Model.php';
+require_once '../model/Model.php';
+require_once '../lib/File.php';
 /**
  * Model test case.
  */
